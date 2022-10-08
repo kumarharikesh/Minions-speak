@@ -2,11 +2,10 @@ let url = "https://api.funtranslations.com/translate/minion.json"
 let translate=document.querySelector("#translate");
 let erase=document.querySelector("#clear");
 
-function buildFinalURL(EnglishInput) {
- var encodedURI = encodeURI(EnglishInput);
- console.log("Encoded URI: " + encodedURI);
- return `${url}?text=${encodedURI}`;
-}
+erase.addEventListener("click",function vanila(){
+ document.querySelector("#txt-input").innerHTML = "";
+ document.querySelector("#output").innerHTML = "";
+})
 
 translate.addEventListener("click",function vanila(){
   let EnglishInput=document.querySelector("#txt-input").value;
@@ -22,4 +21,10 @@ translate.addEventListener("click",function vanila(){
 
 function errorHandler(error){
   alert("Some error occured in the server.\nPlease try again after some time !\nSorry for the inconvenience. 🙂")
+}
+
+function buildFinalURL(EnglishInput) {
+ var encodedURI = encodeURI(EnglishInput);
+ console.log("Encoded URI: " + encodedURI);
+ return `${url}?text=${encodedURI}`;
 }
