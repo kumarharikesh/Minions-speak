@@ -11,8 +11,8 @@ Are you a fan of minions? Convert from English to Minion speak. This language is
 <br/>
 
 # How to Use:
- - In the output box, enter the sentence or word you want to translate.
- - And click on **TRANSLATE INTO VULCAN**
+ - In the input box, enter the sentence or word you want to translate.
+ - And click on **SEE INTO MINIONS LANGUAGE**
  - Output will be shown below in the output box.
  
 # Programming Language:
