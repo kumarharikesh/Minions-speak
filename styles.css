@@ -104,8 +104,9 @@ main > h2 {
     flex-flow: wrap;
 }
 #button-container > div {
-    margin-right: 30px;
-    margin-left: 30px;
+   margin-right: 30px;
+   margin-left: 30px;
+   box-shadow: 0 8px 16px 0 rgb(0 0 0 / 66%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 button {
   margin: 1rem auto;
