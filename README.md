@@ -5,14 +5,14 @@ Are you a fan of minions? Convert from English to Minion speak. This language is
 
 <br/>preview
 <br/>
-![image](https://user-images.githubusercontent.com/43793294/194708571-f59fefbb-30ec-497c-8386-87d279913ba9.png)
+![image](https://user-images.githubusercontent.com/43793294/194715978-e5a1cc00-1dff-4b6b-9b81-fdc6fe70f87c.png)
 
 <br/>
 <br/>
 
 # How to Use:
  - In the input box, enter the sentence or word you want to translate.
- - And click on **SEE INTO MINIONS LANGUAGE**
+ - And click on **SEE INTO MINIONS LANGUAGE**.
  - Output will be shown below in the output box.
  
 # Programming Language:
