@@ -106,7 +106,6 @@ main > h2 {
 #button-container > div {
    margin-right: 30px;
    margin-left: 30px;
-   box-shadow: 0 8px 16px 0 rgb(0 0 0 / 66%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 button {
   margin: 1rem auto;
@@ -119,6 +118,7 @@ button {
   background-color: var(--grey);
   color: rgb(71, 170, 140);
   cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgb(0 0 0 / 66%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 #clear{
     color: rgb(121, 56, 56);
