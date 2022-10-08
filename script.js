@@ -1,6 +1,6 @@
-let https://api.funtranslations.com/translate/minion.json"
-let translate=document.querySelector("#translate")
-let erase=document.querySelector("#clear")
+let url = "https://api.funtranslations.com/translate/minion.json"
+let translate=document.querySelector("#translate");
+let erase=document.querySelector("#clear");
 
 function buildFinalURL(EnglishInput) {
  var encodedURI = encodeURI(EnglishInput);
@@ -9,14 +9,14 @@ function buildFinalURL(EnglishInput) {
 }
 
 translate.addEventListener("click",function vanila(){
-  let EnglishInput=document.querySelector("#txt-input").value
-  var finalURL = buildFinalURL(EnglishInput) 
+  let EnglishInput=document.querySelector("#txt-input").value;
+  var finalURL = buildFinalURL(EnglishInput);
   fetch(finalURL)
     .then(function x(response){
     return response.json()})
     .then(function y(json){
-       let valyrian=json.contents.translated
-       document.querySelector("#output").innerHTML=valyrian
+       let minions = json.contents.translated;
+       document.querySelector("#output").innerHTML = minions;
     }).catch(errorHandler)
 })
 
