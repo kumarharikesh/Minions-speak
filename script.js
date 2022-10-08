@@ -3,7 +3,7 @@ let translate=document.querySelector("#translate");
 let erase=document.querySelector("#clear");
 
 erase.addEventListener("click",function vanila(){
- document.querySelector("#txt-input").innerHTML = "";
+ document.querySelector("#txt-input").value = "";
  document.querySelector("#output").innerHTML = "";
 })
 
