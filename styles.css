@@ -216,7 +216,6 @@ img {
 .footer .link {
   color: white;
   transition: 0.3s;
-  margin: 20px;
 }
 .footer .link:hover {
   color: rgba(255, 255, 255, 0.621);
@@ -231,4 +230,8 @@ img {
 .footer ul {
   padding-inline-start: 0px;
   margin-bottom: 10px;
+}
+
+.footer ul span {
+  margin: 20px 20px;
 }
