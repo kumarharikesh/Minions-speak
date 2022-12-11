@@ -216,7 +216,7 @@ img {
 .footer .link {
   color: white;
   transition: 0.3s;
-  margin-left: 20px;
+  margin: 20px;
 }
 .footer .link:hover {
   color: rgba(255, 255, 255, 0.621);
