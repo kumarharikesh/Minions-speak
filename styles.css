@@ -208,7 +208,7 @@ img {
 .footer {
   background-color: #5e832d;
   padding: 2rem 1rem;
-  padding-bottom: 0px;
+  padding-bottom: 10px;
   text-align: center;
   color: white;
   box-shadow: 0 8px 10px 10px rgb(0 0 0 / 30%), 0 6px 20px 0 rgb(0 0 0 / 19%);
@@ -217,7 +217,7 @@ img {
 .footer .link {
   color: white;
   transition: 0.3s;
-  padding: 10px 20px;
+  padding: 10px 10px;
 }
 .footer .link:hover {
   color: rgba(255, 255, 255, 0.621);
